@@ -11,8 +11,27 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css">
+    <style>
+      .list-books {
+        position: absolute;
+        bottom: 30%;
+        left: 80%;
+      }
+
+      .copywrite {
+        position: absolute;
+        bottom: 30%;
+        left: 50%;
+      }
+      footer {
+        position: fixed;
+        bottom:0px;
+        width: 100%;
+      }
+    </style>
   </head>
-  <style></style>
+
   <body>
     <header class="container">
       <div class="row">
@@ -58,12 +77,29 @@
       </div>
     </main>
 
-    <footer class="container">
-      <div class="row">
-        <div class=""></div>
+<footer class="bg-primary text-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h5>Follow us:</h5>
+        <ul class="list-unstyled">
+          <li><a href="#"><i class="fa-brands fa-facebook fa-beat" style="color: #ffffff;"> FACEBOOK</i></a></li>
+          <li><a href="#"><i class="fa-brands fa-instagram fa-beat" style="color: #ffffff;"> INSTAGRAM</i></a></li>
+          <li><a href="#"><i class="fa-brands fa-square-twitter fa-beat" style="color: #ffffff;"> tWITTER</i></a></li>
+        </ul>
       </div>
-    </footer>
+      <div class="copywrite">
+        <p>&copy; 2023 My Company. All rights reserved.</p>
+      </div>
+      <div class="list-books">
+        <h5>List of Books</h5>
+        <a><i class="fa-duotone fa-books fa-beat" style="--fa-primary-color: #4e6d8d; --fa-secondary-color: #ffffff;"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
 
+<script src="https://kit.fontawesome.com/e1cde1830d.js" crossorigin="anonymous"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
       integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
